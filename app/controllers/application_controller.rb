@@ -8,4 +8,8 @@ class ApplicationController < ActionController::Base
   def goodbye
     render html: 'Goodby, see you later!'
   end
+
+  def welcome_app
+    render html: 'Hello Heroku!'
+  end
 end
